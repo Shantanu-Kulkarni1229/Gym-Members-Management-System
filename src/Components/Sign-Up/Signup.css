@@ -1,12 +1,12 @@
-.customsignup::webkit-scrollbar {
-    width: 4px;
-
+.customsignup::-webkit-scrollbar {
+  width: 4px;
 }
-.customsignup::webkit-scrollbar-thumb {
-    background: rgba(0,0,0,0.5);
+
+.customsignup::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 8px;
 }
 
-.customsignup::webkit-scrollbar-track {
-    background: rgba(0,0,0,0.1);
+.customsignup::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
 }
